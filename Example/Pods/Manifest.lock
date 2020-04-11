@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WGImageTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WGImageTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WGImageTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WGImageTool: 82de77d1894df680ccdbe40817f62f354438d207
+
+PODFILE CHECKSUM: 216658d1d8198449d13aec980875eb79f71ee13f
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+framework module WGImageTool {
+  umbrella header "WGImageTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
